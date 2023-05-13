@@ -31,4 +31,8 @@ minion8_attack=int(9)
 purpleminion_health=(30)
 purpleminion_max_health=int(30)
 purpleminion_attack=int(10)
+HasFreeze_ray=False
+HasBubblegum_grenade=False
+HasKeytar=False
+Banana=0
 

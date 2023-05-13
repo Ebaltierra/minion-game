@@ -1,8 +1,11 @@
 from Minion_stats import *
+from Laboratory import Laboratory
 from Minion_Emblem import minion1, Gru_emblem, Lucy_emblem, minion1_emblem, minion2_emblem, minion3_emblem, minion4_emblem, minion5_emblem, minion6_emblem, minion7_emblem, minion8_emblem, purple_minion_emblem
 def lb(): 
     print("\n========================================================================")
     input()
+def error():
+    print("\nThat's not an answer silly, try again")
     
 lb()
 minion1()
@@ -22,12 +25,21 @@ while True:
         break
     else:
         print("\nThat's not a character silly, try again.")
-purple_minion_emblem()
-minion8_emblem()
-minion1_emblem()
-minion2_emblem()
-minion3_emblem()
-minion4_emblem()
-minion5_emblem()
-minion6_emblem()
-minion7_emblem()
+lb()
+print("Would you like to put on the headset and enter minlandia? (y/n)")
+while True:
+    play=input("\n: ")
+    if play==str("y"):
+        print("GREAT, LETS ENTER MINLANDIA!!!")
+        break
+    elif play==str("n"):
+        print("Okay, maybe some other time!!")
+        quit()
+    else: 
+        error()
+lb()
+print("\nPixels fly around you, your head spins as your reality dissapears and is replaced"
+      +"\n" +"\nYou watch as minlandia loads before your eyes. As you take in what appears around you"
+      +"\nyou notice yellow, pill shaped creatures MINIONS running around green hills." + "\nRolling clouds of white cotton candy fly around your head"
+      +"\nYou spot on the top of a mountain, A FLUFFY UNICORN" +"\n" +"\n...ahem" +"\n" 
+      +"\nYou stand before the doors to your laboratory, and as you enter you take hold of all of your surroundings.")
