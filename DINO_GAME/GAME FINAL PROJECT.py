@@ -1,7 +1,5 @@
 from Minion_stats import *
-from Minion_Emblem import minion1
-from Minion_Emblem import Gru_emblem
-from Minion_Emblem import Lucy_emblem
+from Minion_Emblem import minion1, Gru_emblem, Lucy_emblem, minion1_emblem, minion2_emblem, minion3_emblem, minion4_emblem, minion5_emblem, minion6_emblem, minion7_emblem, minion8_emblem, purple_minion_emblem
 def lb(): 
     print("\n========================================================================")
     input()
@@ -15,13 +13,21 @@ lb()
 while True:
     character=input("\n: ")
     if character==str("gru"):
-        Gru_emblem
+        Gru_emblem()
         print("\nGreat, lets continue with our simulation")
         break
     elif character==str("lucy"):
-        Lucy_emblem
+        Lucy_emblem()
         print("\nGreat, lets continue with our simulation")
         break
     else:
         print("\nThat's not a character silly, try again.")
-
+purple_minion_emblem()
+minion8_emblem()
+minion1_emblem()
+minion2_emblem()
+minion3_emblem()
+minion4_emblem()
+minion5_emblem()
+minion6_emblem()
+minion7_emblem()
