@@ -1,5 +1,5 @@
 from Minion_stats import *
-from Laboratory import Laboratory
+
 from Minion_Emblem import minion1, Gru_emblem, Lucy_emblem, minion1_emblem, minion2_emblem, minion3_emblem, minion4_emblem, minion5_emblem, minion6_emblem, minion7_emblem, minion8_emblem, purple_minion_emblem, board1, board2, board3, board4, board5, board6, board7, board8, empty_board
 def lb(): 
     print("\n========================================================================")
