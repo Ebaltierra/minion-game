@@ -1,4 +1,4 @@
-from GAME_FINAL_PROJECT import *
+from GAME_FINAL_PROJECT import HasBanana, HasBubblegum_grenade, HasFartGun, HasFlamethrower, HasFreeze_ray, Hasglock19, HasKeytar, HasPirahnaGun, Gru_health, Lucy_health, Gru_Max_health, minion1_health, minion2_health, minion3_health, minion4_health, minion5_health, minion6_health, minion7_health, minion8_health, Lucy_Max_health, minion1_max_health, minion2_max_health, minion3_max_health, minion4_max_health, minion5_max_health, minion6_max_health, minion7_max_health, minion8_max_health, purpleminion_health, purpleminion_max_health, Gru_Attack, Lucy_Attack, minion1_attack, minion2_attack, minion3_attack, minion4_attack, minion5_attack, minion6_attack, minion7_attack, minion8_attack, purpleminion_attack
 from Minion_Emblem import minion1, Gru_emblem, Lucy_emblem, minion1_emblem, minion2_emblem, minion3_emblem, minion4_emblem, minion5_emblem, minion6_emblem, minion7_emblem, minion8_emblem, purple_minion_emblem, board1, board2, board3, board4, board5, board6, board7, board8, empty_board
 def lb(): 
     print("\n========================================================================")
