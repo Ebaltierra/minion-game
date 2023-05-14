@@ -15,7 +15,7 @@ def Laboratory():
     while True:
         laboratory_choice=input("\n: ")
         if laboratory_choice==("gear"):
-            print("Gear lets look at what you have unlocked")
+            print("Lets look at what you have unlocked")
             print(f"{inventory}")
             break            
         if laboratory_choice==("map"):

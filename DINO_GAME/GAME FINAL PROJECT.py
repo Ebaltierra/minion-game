@@ -46,5 +46,3 @@ print("\nPixels fly around you, your head spins as your reality dissapears and i
       +"\nYou stand before the doors to your laboratory, and as you enter you take hold of all of your surroundings.")
 
 Laboratory()
-inventory.append(HasBanana)
-print(f"{inventory}")
