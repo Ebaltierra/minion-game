@@ -34,5 +34,10 @@ purpleminion_attack=int(10)
 HasFreeze_ray=False
 HasBubblegum_grenade=False
 HasKeytar=False
-Banana=0
+Hasglock19=False
+HasFlamethrower=False
+HasPirahnaGun=False
+HasFartGun=False
+HasBanana=False
+inventory=[]
 

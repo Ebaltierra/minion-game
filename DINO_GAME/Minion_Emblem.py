@@ -367,3 +367,211 @@ def purple_minion_emblem():
 ⠻⢤⣤⣧⠴⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⠀⣼⣿⣿⣿⣿⣿⣿⡇⠀⠀⠈⢧⣀⠀⠀⠀⠀⣀⣴⣇⣀⣹⣤⠞⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠛⠛⠛⠛⠋⠉⠁⠀⠙⠻⢿⣿⠿⠟⠋⠀⠀⠀⠀⠀⠈⠉⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
           """)
+
+def empty_board():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board1():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│    Freeze Ray     x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board2():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board3():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board4():
+        print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x    Pirahna Gun    │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board5():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x    Pirahna Gun    │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Banana       x                   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board6():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x    Pirahna Gun    │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Banana       x    Flamethrower   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│                   x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board7():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x    Pirahna Gun    │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Banana       x    Flamethrower   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Fart gun     x                   │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
+def board8():
+    print("""
+/───────────────────x───────────────────\
+│                   x                   │
+│     Freeze Ray    x       Keytar      │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│ Bubblegum Grenade x    Pirahna Gun    │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Banana       x    Flamethrower   │
+│                   x                   │
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+│                   x                   │
+│      Fart gun     x      Glock-19     │
+│                   x                   │
+\──\│/──────────────x──────────────\│/──/
+    │                               │
+    │                               │
+   ─┴─                             ─┴─
+          """)
